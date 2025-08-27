@@ -5,34 +5,19 @@
       "src": "blog/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "out"
+        "distDir": "blog/out"
       }
+    },
+    {
+      "src": "index.html",
+      "use": "@vercel/static-build"
     }
   ],
   "routes": [
-    {
-      "src": "/blog/(.*)",
-      "dest": "/blog/$1"
-    },
-    {
-      "src": "/(.*\\.(css|js|jpg|png|gif|ico|svg|html))",
-      "dest": "/$1"
-    },
-    {
-      "src": "/",
-      "dest": "/index.html"
-    },
-    {
-      "src": "/apresentacoes",
-      "dest": "/apresentacoes.html"
-    },
-    {
-      "src": "/portal",
-      "dest": "/portal.html"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
-    }
+    { "src": "/blog/(.*)", "dest": "/blog/out/$1" },
+    { "src": "/apresentacoes", "dest": "/apresentacoes.html" },
+    { "src": "/portal", "dest": "/portal.html" },
+    { "src": "/(.*\\.(css|js|jpg|png|gif|ico|svg|html))", "dest": "/$1" },
+    { "src": "/", "dest": "/index.html" }
   ]
 }

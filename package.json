@@ -1,0 +1,34 @@
+{
+  "name": "site-aprendendo-programacao",
+  "version": "1.0.0",
+  "description": "Site educativo sobre programação com apresentações de projetos",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve -s .",
+    "dev": "serve -s . -l 3000",
+    "build": "echo 'Build completed - static files ready for deployment'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "programming",
+    "education",
+    "web-development",
+    "java",
+    "kotlin",
+    "mobile",
+    "presentation"
+  ],
+  "author": "Thyago Toledo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThyagoToledo/Site-Aprendendo-Programacao.git"
+  },
+  "homepage": "https://site-aprendendo-programacao.vercel.app",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}

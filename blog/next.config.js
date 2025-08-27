@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  assetPrefix: '/blog',
   output: 'export',
   trailingSlash: true,
   skipTrailingSlashRedirect: true,

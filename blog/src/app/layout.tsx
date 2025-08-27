@@ -20,19 +20,19 @@ export default function RootLayout({
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="flex justify-between items-center py-6">
                 <div className="flex items-center space-x-4">
-                  <Link href="/" className="text-2xl font-bold text-indigo-600">
+                  <Link href="/blog" className="text-2xl font-bold text-indigo-600">
                     📚 Blog Programação
                   </Link>
                 </div>
                 <nav className="flex items-center space-x-6">
                   <Link 
-                    href="/" 
+                    href="/blog" 
                     className="text-gray-700 hover:text-indigo-600 transition-colors"
                   >
                     Artigos
                   </Link>
                   <Link 
-                    href="/categorias" 
+                    href="/blog/categorias" 
                     className="text-gray-700 hover:text-indigo-600 transition-colors"
                   >
                     Categorias

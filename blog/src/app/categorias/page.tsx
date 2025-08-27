@@ -65,7 +65,7 @@ export default function CategoriasPage() {
 
       <div className="mt-12 text-center">
         <Link
-          href="/"
+          href="/blog"
           className="bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors inline-block"
         >
           ← Voltar ao blog

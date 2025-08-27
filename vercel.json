@@ -13,6 +13,14 @@
       "use": "@vercel/static"
     },
     {
+      "src": "apresentacoes.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "portal.html",
+      "use": "@vercel/static"
+    },
+    {
       "src": "assets/**/*",
       "use": "@vercel/static"
     }

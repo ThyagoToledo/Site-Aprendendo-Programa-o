@@ -5,7 +5,7 @@
       "src": "blog/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "blog/out"
+        "distDir": "out"
       }
     },
     {

@@ -40,7 +40,7 @@ export default function BlogHome() {
                   {new Date(post.date).toLocaleDateString('pt-BR')}
                 </time>
                 <Link 
-                  href={`/posts/${post.slug}`}
+                  href={`/blog/posts/${post.slug}`}
                   className="text-indigo-600 hover:text-indigo-800 font-medium text-sm"
                 >
                   Ler mais →
@@ -59,7 +59,7 @@ export default function BlogHome() {
           {['HTML & CSS', 'JavaScript', 'React & Next.js', 'Node.js', 'Tutoriais'].map((category) => (
             <Link
               key={category}
-              href={`/categorias`}
+              href={`/blog/categorias`}
               className="bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-6 py-3 rounded-full hover:from-indigo-600 hover:to-purple-700 transition-all transform hover:scale-105"
             >
               {category}

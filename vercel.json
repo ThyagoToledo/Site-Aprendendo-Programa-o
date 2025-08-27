@@ -18,11 +18,14 @@
     }
   ],
   "routes": [
+    { "src": "/blog/_next/(.*)", "dest": "/blog/out/_next/$1" },
+    { "src": "/blog/app/(.*)", "dest": "/blog/out/app/$1" },
     { "src": "/blog/(.*)", "dest": "/blog/out/$1" },
+    { "src": "/blog", "dest": "/blog/out/index.html" },
+    { "src": "/assets/(.*)", "dest": "/assets/$1" },
     { "src": "/apresentacoes", "dest": "/apresentacoes.html" },
     { "src": "/portal", "dest": "/portal.html" },
     { "src": "/(.*\\.(css|js|jpg|png|gif|ico|svg|html))", "dest": "/$1" },
-    { "src": "/blog", "dest": "/blog/out/index.html" },
     { "src": "/", "dest": "/index.html" }
   ]
 }

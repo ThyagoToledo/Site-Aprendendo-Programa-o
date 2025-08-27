@@ -48,7 +48,7 @@ export default function CategoriasPage() {
                           {new Date(post.date).toLocaleDateString('pt-BR')}
                         </time>
                         <Link 
-                          href={`/posts/${post.slug}`}
+                          href={`/blog/posts/${post.slug}`}
                           className="text-indigo-600 hover:text-indigo-800 font-medium text-sm"
                         >
                           Ler artigo →

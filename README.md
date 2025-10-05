@@ -37,23 +37,23 @@ Site-Aprendendo-Programacao/
 └── 📄 .editorconfig               # Configuração do editor
 ```
 
-## 📋 Páginas e Seções (14+ implementadas)
+##  Páginas e Seções (14+ implementadas)
 
-### 🏠 **Página Principal** (`index.html`)
+###  **Página Principal** (`index.html`)
 - Header com navegação
 - Conceitos fundamentais do HTML
 - Explicação sobre Frameworks vs Bibliotecas
 - Canais educativos do YouTube
 - Footer com informações de contato
 
-### 🎥 **Apresentações** (`apresentacoes.html`)
+###  **Apresentações** (`apresentacoes.html`)
 - **Projeto Web**: HTML/CSS/JavaScript
 - **Java Merlin o Guru**: Aplicação desktop
 - **Mobile Kotlin Bobbie Goods**: App Android
 - Sistema de abas interativo
 - Placeholders para vídeos de apresentação
 
-### 🌐 **Portal Completo** (`portal.html`)
+###  **Portal Completo** (`portal.html`)
 1. **Sobre**: Informações da equipe
 2. **Contato**: Formulários funcionais
 3. **Blog**: Posts sobre programação
@@ -62,7 +62,7 @@ Site-Aprendendo-Programacao/
 6. **FAQ**: Perguntas frequentes expansíveis
 7. **Login/Cadastro**: Sistema de autenticação
 
-### 📚 **Blog Next.js** (`blog/`) - 🆕 NOVO!
+###  **Blog Next.js** (`blog/`) -  NOVO!
 - **Sistema dinâmico** com 6+ artigos sobre programação
 - **Categorias organizadas**: HTML/CSS, JavaScript, React, Node.js
 - **Design moderno** com Tailwind CSS
@@ -70,7 +70,7 @@ Site-Aprendendo-Programacao/
 - **Integração perfeita** com o site principal
 - **Deploy otimizado** para Vercel
 
-## 🚀 Tecnologias e Funcionalidades
+##  Tecnologias e Funcionalidades
 
 ### Frontend Tradicional
 - **HTML5** - Estrutura semântica com elementos modernos
@@ -102,7 +102,7 @@ Site-Aprendendo-Programacao/
 - **External Images** - Imagens de perfil de canais e ícones
 - **Responsive Video Containers** - Players com aspect ratio 16:9
 
-## 📂 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```
 Site-Aprendendo-Programacao/
@@ -117,7 +117,7 @@ Site-Aprendendo-Programacao/
 └── README.md             ← Documentação do projeto
 ```
 
-## 🎯 Conteúdo das Páginas
+##  Conteúdo das Páginas
 
 ### Página Inicial (index.html)
 #### 1. Conceitos Fundamentais do HTML
@@ -143,22 +143,22 @@ Site-Aprendendo-Programacao/
 ### Página de Apresentações (apresentacoes.html)
 #### Sistema de Abas Interativo:
 
-**🌐 Projeto Web**
+** Projeto Web**
 - Site educacional desenvolvido com HTML5, CSS3 e JavaScript
 - Funcionalidades: conteúdo educacional, design responsivo, integração de vídeos
 - Tech stack: HTML5, CSS3, JavaScript, Design Responsivo
 
-**☕ Java Merlin o Guru**
+** Java Merlin o Guru**
 - Aplicação Java demonstrando OOP e design patterns
 - Características: sistema inteligente, arquitetura sólida, testes unitários
 - Tech stack: Java, OOP, Design Patterns, Maven/Gradle
 
-**📱 Mobile Kotlin Bobbie Goods**
+** Mobile Kotlin Bobbie Goods**
 - Aplicativo Android desenvolvido em Kotlin
 - Funcionalidades: interface nativa, sincronização, performance, segurança
 - Tech stack: Kotlin, Android, Material Design, MVVM
 
-## 🚀 Como Usar
+##  Como Usar
 
 ### Site Principal (HTML/CSS/JS)
 1. **Clone o repositório**:
@@ -171,7 +171,7 @@ Site-Aprendendo-Programacao/
    - Abra `index.html` diretamente no navegador
    - Ou use um servidor local: `npm run dev`
 
-### Blog Next.js 🆕
+### Blog Next.js 
 1. **Configuração automatizada**:
    ```bash
    # Execute o script de configuração
@@ -189,7 +189,7 @@ Site-Aprendendo-Programacao/
    - Blog: `http://localhost:3001`
    - Site principal: `http://localhost:3000`
 
-## 🚀 Deploy no Vercel
+##  Deploy no Vercel
 
 O projeto está configurado para deploy automático no Vercel com suporte ao blog Next.js:
 
@@ -205,7 +205,7 @@ O projeto está configurado para deploy automático no Vercel com suporte ao blo
 3. **Deploy automático** - Vercel detecta automaticamente a configuração
 4. **URL personalizada** - Configurar domínio personalizado se necessário
 
-## 🎥 Preparação para Vídeos
+##  Preparação para Vídeos
 
 ### Abas Preparadas:
 Cada aba na página de apresentações está preparada para receber vídeos:
@@ -219,7 +219,7 @@ Cada aba na página de apresentações está preparada para receber vídeos:
 2. **Substituir** o placeholder pelo iframe do YouTube
 3. **Manter** o design responsivo existente
 
-## 🎥 Conteúdo Multimídia
+##  Conteúdo Multimídia
 
 ### Vídeos Incorporados:
 1. **Framework Explicativo**
@@ -242,7 +242,7 @@ Cada aba na página de apresentações está preparada para receber vídeos:
 - **Ícones temáticos** - Representações visuais dos conceitos
 - **Logos** - Identidade visual dos canais parceiros
 
-## 📧 Contato e Links
+##  Contato e Links
 
 - **Email**: thyago10a2007@gmail.com
 - **GitHub**: [ThyagoToledo](https://github.com/ThyagoToledo)
@@ -250,7 +250,7 @@ Cada aba na página de apresentações está preparada para receber vídeos:
   - [@DotcodeEdu](https://www.youtube.com/@DotcodeEdu) - Bibliotecas e conceitos
   - [CriaScript](https://www.youtube.com/@criascript/shorts) - Entretenimento educativo
 
-## 📚 Frameworks e Bibliotecas Mencionados
+##  Frameworks e Bibliotecas Mencionados
 
 ### No Conteúdo Educativo:
 - **React** - Framework JavaScript mencionado como exemplo
@@ -266,5 +266,5 @@ Cada aba na página de apresentações está preparada para receber vídeos:
 
 ---
 
-🎓 **Material educativo gratuito e acessível!** Site focado no aprendizado progressivo de desenvolvimento web.
+ **Material educativo gratuito e acessível!** Site focado no aprendizado progressivo de desenvolvimento web.
 

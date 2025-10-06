@@ -1,8 +1,8 @@
-# 📚 Blog Next.js - Aprendendo Programação
+#  Blog Next.js - Aprendendo Programação
 
 Este é um blog moderno desenvolvido com Next.js 14+ e Tailwind CSS que complementa o site principal "Aprendendo Programação".
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 
 - **Blog dinâmico** com artigos sobre programação
 - **Sistema de categorias** para organizar o conteúdo
@@ -11,7 +11,7 @@ Este é um blog moderno desenvolvido com Next.js 14+ e Tailwind CSS que compleme
 - **Integração perfeita** com o site principal
 - **Deploy no Vercel** com build otimizado
 
-## 📁 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```
 blog/
@@ -31,7 +31,7 @@ blog/
 └── tsconfig.json
 ```
 
-## 🛠️ Instalação e Execução
+##  Instalação e Execução
 
 ### 1. Instalar Dependências
 ```bash
@@ -51,7 +51,7 @@ O blog estará disponível em: `http://localhost:3001`
 npm run build
 ```
 
-## 📝 Adicionando Novos Posts
+##  Adicionando Novos Posts
 
 Para adicionar novos posts, você tem duas opções:
 
@@ -65,7 +65,6 @@ Edite o array `getExamplePosts()` em `src/lib/posts.ts` e adicione novos posts:
   date: '2025-01-20',
   excerpt: 'Uma breve descrição do post...',
   category: 'JavaScript',
-  emoji: '🎯',
   content: `# Meu Novo Post
 
 Conteúdo do post em markdown...`
@@ -82,7 +81,7 @@ content/
     └── outro-post.md
 ```
 
-## 🎨 Personalização
+##  Personalização
 
 ### Cores e Tema
 Edite `tailwind.config.js` para personalizar as cores:
@@ -101,7 +100,7 @@ theme: {
 ### Layout
 Modifique `src/app/layout.tsx` para alterar o header, navegação ou footer.
 
-## 🚀 Deploy no Vercel
+##  Deploy no Vercel
 
 O blog está configurado para deploy automático no Vercel:
 
@@ -115,15 +114,15 @@ O arquivo `vercel.json` na raiz do projeto já está configurado para:
 - Manter o site principal funcionando
 - Build otimizado do Next.js
 
-## 🔗 Integração com o Site Principal
+##  Integração com o Site Principal
 
 O blog está totalmente integrado ao site principal:
 
-- **Link na navegação**: Botão "📚 Blog" no menu principal
+- **Link na navegação**: Botão " Blog" no menu principal
 - **Navegação consistente**: Links de volta ao site principal
 - **Design harmonioso**: Mesma paleta de cores e tipografia
 
-## 🎯 Próximos Passos
+##  Próximos Passos
 
 ### Funcionalidades Futuras:
 1. **Sistema de busca** nos posts
@@ -140,7 +139,7 @@ O blog está totalmente integrado ao site principal:
 4. **RSS Feed** para assinantes
 5. **Otimização de imagens** automática
 
-## 📚 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - **Next.js 14+**: Framework React com App Router
 - **TypeScript**: Tipagem estática para maior robustez
@@ -149,7 +148,7 @@ O blog está totalmente integrado ao site principal:
 - **Gray Matter**: Parser para frontmatter em Markdown
 - **Vercel**: Plataforma de deploy e hospedagem
 
-## 🤝 Contribuindo
+##  Contribuindo
 
 Para contribuir com novos posts ou melhorias:
 
@@ -158,14 +157,14 @@ Para contribuir com novos posts ou melhorias:
 3. Adicione seus posts ou modificações
 4. Faça um pull request
 
-## 📄 Licença
+##  Licença
 
 Este projeto está sob a licença MIT - veja o arquivo LICENSE para detalhes.
 
 ---
 
-**📞 Contato**
+** Contato**
 - Email: thyago10a2007@gmail.com
 - GitHub: [@ThyagoToledo](https://github.com/ThyagoToledo)
 
-**🌟 Se este projeto foi útil para você, considere dar uma estrela no GitHub!**
+** Se este projeto foi útil para você, considere dar uma estrela no GitHub!**

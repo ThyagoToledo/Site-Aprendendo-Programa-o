@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo HTML</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1>Aprendendo HTML</h1>
+                <p>Fundamentos da linguagem de marcação da web</p>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="nav">
+            <div class="nav-content">
+                <a href="#conceitos">Conceitos</a>
+                <a href="#frameworks">Frameworks</a>
+                <a href="#bibliotecas">Bibliotecas</a>
+                <a href="#canais">Canais</a>
+                <a href="apresentacoes.html">Apresentações</a>
+                <a href="blog/" class="blog-link"> Blog</a>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main">
+            <!-- HTML Concepts Section -->
+            <section id="conceitos" class="section">
+                <h2>Conceitos Fundamentais do HTML</h2>
+                <div class="course-grid">
+                    <div class="course-card">
+                        <h3>O que é HTML?</h3>
+                        <p>HTML (HyperText Markup Language) é a linguagem de marcação padrão para criar páginas web. É a
+                            base de toda página na internet.</p>
+                        <ul>
+                            <li>HTML usa tags para estruturar o conteúdo</li>
+                            <li>É interpretado pelos navegadores</li>
+                            <li>Trabalha junto com CSS e JavaScript</li>
+                            <li>É a fundação do desenvolvimento web</li>
+                        </ul>
+                    </div>
+
+                    <div class="course-card">
+                        <h3>Estrutura Básica do HTML</h3>
+                        <p>Todo documento HTML segue uma estrutura padrão com elementos essenciais que organizam o
+                            conteúdo da página.</p>
+                        <ul>
+                            <li>&lt;!DOCTYPE html&gt; - declara o tipo de documento</li>
+                            <li>&lt;html&gt; - elemento raiz do documento</li>
+                            <li>&lt;head&gt; - contém metadados da página</li>
+                            <li>&lt;body&gt; - contém o conteúdo visível</li>
+                        </ul>
+                    </div>
+
+                    <div class="course-card">
+                        <h3>Tags Principais</h3>
+                        <p>As tags HTML são os blocos de construção das páginas web. Cada tag tem uma função específica
+                            na estruturação do conteúdo.</p>
+                        <ul>
+                            <li>&lt;h1&gt; a &lt;h6&gt; - títulos e subtítulos</li>
+                            <li>&lt;p&gt; - parágrafos de texto</li>
+                            <li>&lt;a&gt; - links e âncoras</li>
+                            <li>&lt;img&gt; - imagens na página</li>
+                        </ul>
+                    </div>
+
+                    <div class="course-card">
+                        <h3>Atributos HTML</h3>
+                        <p>Os atributos fornecem informações adicionais sobre os elementos HTML e controlam seu
+                            comportamento e aparência.</p>
+                        <ul>
+                            <li>class - para estilos CSS</li>
+                            <li>id - identificador único</li>
+                            <li>src - source para imagens e mídia</li>
+                            <li>href - destino de links</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Frameworks Section -->
+            <section id="frameworks" class="section">
+                <div class="framework-content">
+                    <div class="framework-explanation">
+                        <h3>O que é um Framework?</h3>
+
+                        <div class="framework-card">
+                            <p>
+                                Um <strong>framework</strong> é uma estrutura de código pré-escrita que fornece uma base
+                                sólida para desenvolver aplicações. É como um "esqueleto" que já tem a arquitetura
+                                básica pronta, permitindo que você foque na lógica específica do seu projeto.
+                            </p>
+
+                            <h4>Por que usar um Framework?</h4>
+
+                            <ul>
+                                <li><strong>Rapidez no desenvolvimento:</strong> Evita reescrever código comum</li>
+                                <li><strong>Padronização:</strong> Mantém o código organizado e consistente</li>
+                                <li><strong>Segurança:</strong> Implementa boas práticas de segurança</li>
+                                <li><strong>Comunidade:</strong> Suporte e documentação extensiva</li>
+                            </ul>
+                        </div>
+
+                        <div class="video-container">
+                            <h4> Vídeo Explicativo</h4>
+
+                            <div class="video-wrapper">
+                                <iframe src="https://www.youtube.com/embed/0WCGyMTmT2A?si=kosxOKQOdtUzk1i8"
+                                    title="O que é um Framework?"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                                </iframe>
+                            </div>
+
+                            <p style="margin-top: 1rem; font-size: 0.9rem; color: #666; text-align: center;">
+                                Assista ao vídeo para entender melhor o conceito de frameworks na programação.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Libraries Section -->
+            <section id="bibliotecas" class="section">
+                <div class="framework-content">
+                    <div class="framework-explanation">
+                        <h3>O que é uma Biblioteca em Programação?</h3>
+
+                        <div class="framework-card">
+                            <p>
+                                Uma <strong>biblioteca</strong> é uma coleção de códigos pré-escritos que fornece
+                                funcionalidades específicas para os desenvolvedores. Diferente de um framework,
+                                que controla o fluxo da aplicação, uma biblioteca oferece ferramentas que você
+                                pode usar quando precisar.
+                            </p>
+
+                            <h4>Framework vs Biblioteca - Qual a diferença?</h4>
+
+                            <div class="comparison-grid">
+                                <div class="comparison-card library">
+                                    <h5> Biblioteca</h5>
+                                    <ul>
+                                        <li>Você chama a biblioteca</li>
+                                        <li>Controle na sua mão</li>
+                                        <li>Exemplo: jQuery, Lodash</li>
+                                    </ul>
+                                </div>
+
+                                <div class="comparison-card framework">
+                                    <h5> Framework</h5>
+                                    <ul>
+                                        <li>Framework chama você</li>
+                                        <li>Controle do framework</li>
+                                        <li>Exemplo: React, Angular</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-container">
+                            <h4> Vídeo Explicativo - Alura</h4>
+
+                            <div class="video-wrapper">
+                                <iframe width="560" height="315"
+                                    src="https://www.youtube.com/embed/F0H4HPXdZog?si=oEiBo7awsCnX_Wix"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                                </iframe>
+                            </div>
+
+                            <div class="channel-info">
+                                <p style="margin-bottom: 0.5rem; color: #666;">
+                                    Conteúdo do canal:
+                                </p>
+                                <div class="channel-link">
+                                    <div style="
+                                        width: 32px; 
+                                        height: 32px; 
+                                        background: linear-gradient(135deg, #FF0000, #CC0000);
+                                        border-radius: 50%;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        font-size: 14px;
+                                        font-weight: bold;
+                                        color: white;
+                                    ">📺</div>
+                                    <a href="https://www.youtube.com/@alura" target="_blank" rel="noopener noreferrer">
+                                        Alura
+                                    </a>
+                                </div>
+                                <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">
+                                    Clique para visitar o canal e ver mais conteúdos sobre programação!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Channels Section -->
+            <section id="canais" class="section">
+                <div class="container">
+                    <h2>Canais de Entretenimento</h2>
+                    <p style="text-align: center; color: #666; margin-bottom: 2rem; font-size: 1.1rem;">
+                        Descubra canais que tornam o aprendizado de programação mais divertido e envolvente!
+                    </p>
+
+                    <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 30px; margin-top: 30px;">
+                        <div
+                            style="background: white; border-radius: 16px; padding: 30px; box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); border: 1px solid #e5e7eb; transition: all 0.3s ease;">
+                            <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+                                <div style="
+                                    width: 60px;
+                                    height: 60px;
+                                    border-radius: 50%;
+                                    overflow: hidden;
+                                    flex-shrink: 0;
+                                ">
+                                    <img src="https://pbs.twimg.com/profile_images/1676392775523217409/j4VMQvdK_400x400.jpg"
+                                        alt="CriaScript" style="
+                                            width: 100%;
+                                            height: 100%;
+                                            object-fit: cover;
+                                        " />
+                                </div>
+                                <div>
+                                    <h3 style="margin: 0; color: #1a1a1a; font-size: 1.5rem; font-weight: 700;">
+                                        CriaScript</h3>
+                                    <p style="margin: 8px 0 0 0; color: #666; font-size: 1rem; line-height: 1.5;">
+                                        Canal focado em programação com conteúdo dinâmico e educativo através de shorts
+                                        divertidos
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div style="margin-bottom: 25px;">
+                                <p style="color: #4a5568; line-height: 1.6; margin-bottom: 20px;">
+                                    O <strong>CriaScript</strong> oferece uma abordagem única para aprender programação
+                                    através de
+                                    conteúdos curtos e envolventes. Ideal para quem quer aprender de forma rápida e
+                                    prática!
+                                </p>
+
+                                <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+                                    <span
+                                        style="background: linear-gradient(135deg, #f093fb, #f5576c); color: white; padding: 6px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: 500;">
+                                        Shorts Educativos</span>
+                                    <span
+                                        style="background: linear-gradient(135deg, #f093fb, #f5576c); color: white; padding: 6px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: 500;">
+                                        Programação</span>
+                                    <span
+                                        style="background: linear-gradient(135deg, #f093fb, #f5576c); color: white; padding: 6px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: 500;">
+                                        Conteúdo Prático</span>
+                                </div>
+                            </div>
+
+                            <div style="margin-top: 20px;">
+                                <a href="https://www.youtube.com/@criascript/shorts" target="_blank"
+                                    rel="noopener noreferrer" style="
+                                        background: linear-gradient(135deg, #667eea, #764ba2);
+                                        color: white;
+                                        border: none;
+                                        padding: 12px 24px;
+                                        font-size: 1rem;
+                                        border-radius: 8px;
+                                        text-decoration: none;
+                                        display: inline-flex;
+                                        align-items: center;
+                                        gap: 10px;
+                                        transition: all 0.3s ease;
+                                    ">
+                                    <div style="
+                                        background: rgba(255, 255, 255, 0.2);
+                                        width: 32px;
+                                        height: 32px;
+                                        border-radius: 50%;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        overflow: hidden;
+                                        flex-shrink: 0;
+                                    ">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy2VMYkXDS7OcpcsqYGiJnrVJ1yfy2WQ7ToA&s"
+                                            alt="CriaScript" style="
+                                                width: 24px;
+                                                height: 24px;
+                                                object-fit: cover;
+                                                border-radius: 50%;
+                                            " />
+                                    </div>
+                                    Visitar Canal
+                                </a>
+                            </div>
+
+                            <div style="margin-top: 25px;">
+                                <h4 style="margin-bottom: 15px; color: #333; font-size: 1.2rem; font-weight: 600;">
+                                    Exemplo de Conteúdo:</h4>
+                                <div class="video-container">
+                                    <iframe width="560" height="315"
+                                        src="https://www.youtube.com/embed/uIVKT3Irc7o?si=wINApFsdX2U2XiL0"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="
+                            background: linear-gradient(135deg, #f093fb, #f5576c);
+                            color: white;
+                            padding: 30px;
+                            border-radius: 16px;
+                            height: fit-content;
+                        ">
+                            <h3 style="margin: 0 0 20px 0; font-size: 1.3rem; font-weight: 700;">Por que Entretenimento
+                                na Programação?</h3>
+                            <div style="display: flex; flex-direction: column; gap: 20px;">
+                                <div style="display: flex; align-items: flex-start; gap: 15px;">
+                                    <div style="
+                                        width: 50px;
+                                        height: 50px;
+                                        background: rgba(255, 255, 255, 0.2);
+                                        border-radius: 50%;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        overflow: hidden;
+                                        flex-shrink: 0;
+                                    ">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrxWAvv6bvzy-ZP9wx3uZqWtb6EzXtQ7FnjxR_d70zl01zUTtodv00R6NeAn4qZSnRYDc&usqp=CAU"
+                                            alt="Aprendizado Eficaz" style="
+                                                width: 36px;
+                                                height: 36px;
+                                                object-fit: cover;
+                                                border-radius: 50%;
+                                            " />
+                                    </div>
+                                    <div>
+                                        <h4 style="margin: 0 0 5px 0; font-size: 1.1rem; font-weight: 600;">Aprendizado
+                                            Eficaz</h4>
+                                        <p style="margin: 0; font-size: 0.95rem; opacity: 0.9; line-height: 1.4;">
+                                            Conteúdo divertido aumenta a retenção de informação</p>
+                                    </div>
+                                </div>
+                                <div style="display: flex; align-items: flex-start; gap: 15px;">
+                                    <div style="
+                                        width: 50px;
+                                        height: 50px;
+                                        background: rgba(255, 255, 255, 0.2);
+                                        border-radius: 50%;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        overflow: hidden;
+                                        flex-shrink: 0;
+                                    ">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgnZmys5QKS275Z3088rQZr-TrwEBZ83P3mw&s"
+                                            alt="Motivação" style="
+                                                width: 36px;
+                                                height: 36px;
+                                                object-fit: cover;
+                                                border-radius: 50%;
+                                            " />
+                                    </div>
+                                    <div>
+                                        <h4 style="margin: 0 0 5px 0; font-size: 1.1rem; font-weight: 600;">Motivação
+                                        </h4>
+                                        <p style="margin: 0; font-size: 0.95rem; opacity: 0.9; line-height: 1.4;">Mantém
+                                            o interesse e a vontade de continuar aprendendo</p>
+                                    </div>
+                                </div>
+                                <div style="display: flex; align-items: flex-start; gap: 15px;">
+                                    <div style="
+                                        width: 50px;
+                                        height: 50px;
+                                        background: rgba(255, 255, 255, 0.2);
+                                        border-radius: 50%;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        overflow: hidden;
+                                        flex-shrink: 0;
+                                    ">
+                                        <img src="https://yt3.googleusercontent.com/G8BFeDJpuGWTUs1gO4HE67g6oroFJom_EtQDB__afj-yZQrtg3dnh3luNaUPz9vx0PM0pyIB=s900-c-k-c0x00ffffff-no-rj"
+                                            alt="Criatividade" style="
+                                                width: 36px;
+                                                height: 36px;
+                                                object-fit: cover;
+                                                border-radius: 50%;
+                                            " />
+                                    </div>
+                                    <div>
+                                        <h4 style="margin: 0 0 5px 0; font-size: 1.1rem; font-weight: 600;">Criatividade
+                                        </h4>
+                                        <p style="margin: 0; font-size: 0.95rem; opacity: 0.9; line-height: 1.4;">
+                                            Inspira novas ideias e abordagens para resolver problemas</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Aprendendo HTML</h3>
+                    <p>
+                        Material educativo para quem está começando no desenvolvimento web.
+                        Conteúdo simples e prático sobre HTML e conceitos fundamentais.
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Recursos</h3>
+                    <p>Documentação HTML oficial</p>
+                    <p>Vídeos explicativos</p>
+                    <p>Exemplos práticos</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contato</h3>
+                    <p>
+                        <a href="mailto:thyago10a2007@gmail.com" style="color: #bdc3c7; text-decoration: none;">
+                            thyago10a2007@gmail.com
+                        </a>
+                    </p>
+                    <div style="display: flex; align-items: center; gap: 0.5rem; margin-top: 0.5rem;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#bdc3c7">
+                            <path
+                                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                        </svg>
+                        <a href="https://github.com/ThyagoToledo" target="_blank" rel="noopener noreferrer"
+                            style="color: #bdc3c7; text-decoration: none;">
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Aprendendo HTML.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="/assets/js/script.js"></script>
+</body>
+
+</html>

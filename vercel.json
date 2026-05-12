@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "blog/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "out"
+      }
+    },
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "apresentacoes.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "portal.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "assets/**/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+  { "src": "/blog/_next/(.*)", "dest": "/blog/out/_next/$1" },
+  { "src": "/blog/app/(.*)", "dest": "/blog/out/app/$1" },
+  { "src": "/blog/page", "dest": "/blog/out/page.html" },
+  { "src": "/blog/layout", "dest": "/blog/out/layout.html" },
+  { "src": "/blog/not-found", "dest": "/blog/out/not-found.html" },
+  { "src": "/blog/static/(.*)", "dest": "/blog/out/static/$1" },
+  { "src": "/blog/posts/(.*)", "dest": "/blog/out/posts/$1/index.html" },
+  { "src": "/blog/categorias", "dest": "/blog/out/categorias/index.html" },
+  { "src": "/blog/(.*)", "dest": "/blog/out/$1" },
+  { "src": "/blog", "dest": "/blog/out/index.html" },
+    { "src": "/assets/(.*)", "dest": "/assets/$1" },
+    { "src": "/apresentacoes", "dest": "/apresentacoes.html" },
+    { "src": "/portal", "dest": "/portal.html" },
+    { "src": "/(.*\\.(css|js|jpg|png|gif|ico|svg|html))", "dest": "/$1" },
+    { "src": "/", "dest": "/index.html" }
+  ]
+}

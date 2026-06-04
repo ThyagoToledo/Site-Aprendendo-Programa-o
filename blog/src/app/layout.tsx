@@ -75,7 +75,7 @@ export default function RootLayout({
                 <div>
                   <h3 className="text-lg font-semibold mb-4">Contato</h3>
                   <p className="text-gray-300">
-                    thyago10a2007@gmail.com
+                    thyagotoledoassis@gmail.com
                   </p>
                 </div>
               </div>

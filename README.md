@@ -246,7 +246,7 @@ Cada aba na página de apresentações está preparada para receber vídeos:
 
 ## Contato e Links
 
-- **Email**: thyago10a2007@gmail.com
+- **Email**: thyagotoledoassis@gmail.com
 - **GitHub**: [ThyagoToledo](https://github.com/ThyagoToledo)
 - **Canais Parceiros**:
   - [@DotcodeEdu](https://www.youtube.com/@DotcodeEdu) - Bibliotecas e conceitos

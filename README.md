@@ -1,8 +1,12 @@
 # Site Aprendendo Programação + Blog Next.js
 
+<p align="center">
+  <img src="Icons/Logo.png" alt="Aprendendo Programação Logo" width="250px" style="border-radius: 24px; box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);" />
+</p>
+
 Projeto educativo multi-página focado no ensino de desenvolvimento de software, incluindo web development, Java e desenvolvimento mobile. Agora com blog moderno em Next.js!
 
-## � Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 Site-Aprendendo-Programacao/
@@ -11,33 +15,36 @@ Site-Aprendendo-Programacao/
 ├── 📄 portal.html                   # Portal completo (7 seções)
 ├── 📁 blog/                         # 🆕 Blog Next.js moderno
 │   ├── src/app/                     # App Router do Next.js
-│   ├── package.json                # Dependências do blog
-│   ├── next.config.js              # Configuração Next.js
-│   ├── tailwind.config.js          # Configuração Tailwind
+│   ├── package.json                 # Dependências do blog
+│   ├── next.config.js               # Configuração Next.js
+│   ├── tailwind.config.js           # Configuração Tailwind
 │   └── README.md                   # Documentação do blog
 ├── 📁 assets/                       # Recursos estáticos
 │   ├── 📁 css/                      # Arquivos de estilo
-│   │   ├── style.css               # Estilos principais
-│   │   ├── apresentacoes.css       # Estilos das apresentações
-│   │   └── portal.css              # Estilos do portal
+│   │   ├── style.css                # Estilos principais
+│   │   ├── apresentacoes.css        # Estilos das apresentações
+│   │   └── portal.css               # Estilos do portal
 │   └── 📁 js/                       # Scripts JavaScript
-│       ├── script.js               # Funcionalidades gerais
-│       ├── apresentacoes.js        # Sistema de abas
-│       └── portal.js               # Interações do portal
-├── 📁 docs/                         # Documentação
-│   ├── Requisitos                  # Requisitos do projeto
-│   └── libraries-frameworks.md    # Documentação técnica
+│       ├── script.js                # Funcionalidades gerais
+│       ├── apresentacoes.js         # Sistema de abas
+│       └── portal.js                # Interações do portal
+├── 📁 doc/                          # 🆕 Documentação modularizada
+│   ├── correcoes_vercel.md          # Histórico de correções do deploy
+│   ├── deploy_guide.md              # Guia de deploy na Vercel
+│   ├── libraries_frameworks.md      # Referência de bibliotecas e frameworks
+│   └── requisitos.md                # Requisitos e especificações do projeto
+├── 📁 Icons/                        # 🆕 Ícones e imagens do repositório
+│   ├── 📄 Favicon.png               # Ícone do site
+│   └── 📄 Logo.png                  # Logo principal do projeto
 ├── 📁 Videos/                       # Diretório para vídeos futuros
 ├── 📄 package.json                  # Configuração npm
 ├── 📄 vercel.json                   # Configuração Vercel
-├── 📄 DEPLOY_GUIDE.md              # Guia de deploy
-├── 📄 CHANGELOG.md                 # Histórico de mudanças
-├── 📄 README.md                    # Este arquivo
-├── 📄 .gitignore                   # Arquivos ignorados pelo Git
-└── 📄 .editorconfig               # Configuração do editor
+├── 📄 README.md                     # Este arquivo (Hub)
+├── 📄 .gitignore                    # Arquivos ignorados pelo Git
+└── 📄 .editorconfig                 # Configuração do editor
 ```
 
-##  Páginas e Seções (14+ implementadas)
+## Páginas e Seções (14+ implementadas)
 
 ###  **Página Principal** (`index.html`)
 - Header com navegação
@@ -62,7 +69,7 @@ Site-Aprendendo-Programacao/
 6. **FAQ**: Perguntas frequentes expansíveis
 7. **Login/Cadastro**: Sistema de autenticação
 
-###  **Blog Next.js** (`blog/`) -  NOVO!
+### **Blog Next.js** (`blog/`) - NOVO!
 - **Sistema dinâmico** com 6+ artigos sobre programação
 - **Categorias organizadas**: HTML/CSS, JavaScript, React, Node.js
 - **Design moderno** com Tailwind CSS
@@ -70,7 +77,7 @@ Site-Aprendendo-Programacao/
 - **Integração perfeita** com o site principal
 - **Deploy otimizado** para Vercel
 
-##  Tecnologias e Funcionalidades
+## Tecnologias e Funcionalidades
 
 ### Frontend Tradicional
 - **HTML5** - Estrutura semântica com elementos modernos
@@ -102,22 +109,8 @@ Site-Aprendendo-Programacao/
 - **External Images** - Imagens de perfil de canais e ícones
 - **Responsive Video Containers** - Players com aspect ratio 16:9
 
-##  Estrutura do Projeto
 
-```
-Site-Aprendendo-Programacao/
-├── index.html              ← Página inicial com conteúdo educativo
-├── apresentacoes.html      ← Página de apresentações dos projetos
-├── style.css              ← Estilos principais do site
-├── apresentacoes.css      ← Estilos específicos para página de apresentações
-├── script.js              ← JavaScript para funcionalidades gerais
-├── apresentacoes.js       ← JavaScript para sistema de abas
-├── vercel.json           ← Configuração para deploy no Vercel
-├── libraries-frameworks.md ← Documentação técnica
-└── README.md             ← Documentação do projeto
-```
-
-##  Conteúdo das Páginas
+## Conteúdo das Páginas
 
 ### Página Inicial (index.html)
 #### 1. Conceitos Fundamentais do HTML
@@ -158,7 +151,16 @@ Site-Aprendendo-Programacao/
 - Funcionalidades: interface nativa, sincronização, performance, segurança
 - Tech stack: Kotlin, Android, Material Design, MVVM
 
-##  Como Usar
+## Hub de Documentação
+
+A documentação técnica detalhada do projeto está centralizada e organizada na pasta [doc/](doc/):
+
+* **[Requisitos do Projeto](doc/requisitos.md)**: Conjunto de regras, estrutura de páginas mínimas exigidas, padrões de responsividade, critérios de avaliação e especificações para a produção de vídeos.
+* **[Guia de Bibliotecas e Frameworks](doc/libraries_frameworks.md)**: Detalhamento técnico e conceitual sobre a diferença entre frameworks (ex: React, Angular, Vue.js) e bibliotecas (ex: jQuery, Lodash).
+* **[Guia de Deploy na Vercel](doc/deploy_guide.md)**: Roteiro completo de deploy contínuo para o site estático e para a integração com o Blog Next.js na Vercel.
+* **[Resolução de Erros da Vercel](doc/correcoes_vercel.md)**: Histórico de correções para erros de build, rotas no `vercel.json` e soluções de deploy do App Router.
+
+## Como Usar
 
 ### Site Principal (HTML/CSS/JS)
 1. **Clone o repositório**:
@@ -189,7 +191,7 @@ Site-Aprendendo-Programacao/
    - Blog: `http://localhost:3001`
    - Site principal: `http://localhost:3000`
 
-##  Deploy no Vercel
+## Deploy no Vercel
 
 O projeto está configurado para deploy automático no Vercel com suporte ao blog Next.js:
 
@@ -205,7 +207,7 @@ O projeto está configurado para deploy automático no Vercel com suporte ao blo
 3. **Deploy automático** - Vercel detecta automaticamente a configuração
 4. **URL personalizada** - Configurar domínio personalizado se necessário
 
-##  Preparação para Vídeos
+## Preparação para Vídeos
 
 ### Abas Preparadas:
 Cada aba na página de apresentações está preparada para receber vídeos:
@@ -219,7 +221,7 @@ Cada aba na página de apresentações está preparada para receber vídeos:
 2. **Substituir** o placeholder pelo iframe do YouTube
 3. **Manter** o design responsivo existente
 
-##  Conteúdo Multimídia
+## Conteúdo Multimídia
 
 ### Vídeos Incorporados:
 1. **Framework Explicativo**
@@ -242,7 +244,7 @@ Cada aba na página de apresentações está preparada para receber vídeos:
 - **Ícones temáticos** - Representações visuais dos conceitos
 - **Logos** - Identidade visual dos canais parceiros
 
-##  Contato e Links
+## Contato e Links
 
 - **Email**: thyago10a2007@gmail.com
 - **GitHub**: [ThyagoToledo](https://github.com/ThyagoToledo)
@@ -250,7 +252,7 @@ Cada aba na página de apresentações está preparada para receber vídeos:
   - [@DotcodeEdu](https://www.youtube.com/@DotcodeEdu) - Bibliotecas e conceitos
   - [CriaScript](https://www.youtube.com/@criascript/shorts) - Entretenimento educativo
 
-##  Frameworks e Bibliotecas Mencionados
+## Frameworks e Bibliotecas Mencionados
 
 ### No Conteúdo Educativo:
 - **React** - Framework JavaScript mencionado como exemplo
@@ -266,5 +268,5 @@ Cada aba na página de apresentações está preparada para receber vídeos:
 
 ---
 
- **Material educativo gratuito e acessível!** Site focado no aprendizado progressivo de desenvolvimento web.
+**Material educativo gratuito e acessível!** Site focado no aprendizado progressivo de desenvolvimento web.
 

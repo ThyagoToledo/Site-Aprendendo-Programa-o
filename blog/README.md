@@ -164,7 +164,7 @@ Este projeto está sob a licença MIT - veja o arquivo LICENSE para detalhes.
 ---
 
 ** Contato**
-- Email: thyago10a2007@gmail.com
+- Email: thyagotoledoassis@gmail.com
 - GitHub: [@ThyagoToledo](https://github.com/ThyagoToledo)
 
 ** Se este projeto foi útil para você, considere dar uma estrela no GitHub!**

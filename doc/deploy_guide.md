@@ -1,103 +1,107 @@
-# 🚀 Guia de Deploy - Site Aprendendo Programação
+# Guia de Deploy - Site Aprendendo Programacao
 
-## 📋 Preparação Completa
+Este documento apresenta o roteiro para realizacao do deploy e publicacao do projeto no ar via GitHub e Vercel, incluindo a integracao hibrida entre as paginas estaticas e o blog Next.js.
 
-✅ **Arquivos Criados:**
-- `index.html` - Página inicial com conteúdo educativo
-- `apresentacoes.html` - Página de apresentações dos projetos
+---
+
+## Preparacao Completa
+
+Arquivos estruturais e de configuracao necessarios para o deploy:
+- `index.html` - Pagina inicial com conteudo educativo
+- `apresentacoes.html` - Pagina de apresentacoes dos projetos
+- `portal.html` - Portal de servicos, FAQ e contato
 - `style.css` - Estilos principais
-- `apresentacoes.css` - Estilos das apresentações
+- `apresentacoes.css` - Estilos das apresentacoes
+- `portal.css` - Estilos do portal
 - `script.js` - JavaScript geral
 - `apresentacoes.js` - JavaScript das abas
-- `vercel.json` - Configuração do Vercel
-- `package.json` - Configuração do projeto
-- `.gitignore` - Arquivos a serem ignorados pelo Git
-- `README.md` - Documentação completa
+- `portal.js` - JavaScript do portal
+- `vercel.json` - Configuracao de roteamento e builds do Vercel
+- `package.json` - Configuracao do projeto npm
+- `.gitignore` - Arquivos ignorados pelo controle de versao Git
+- `README.md` - Documentacao de resumo e hub do repositorio
 
-## 🔄 Passos para Upload no GitHub
+---
 
-### 1. Inicializar Repositório Git
+## Passos para Upload no GitHub
+
+### 1. Inicializar Repositorio Git
+No terminal de comandos, execute na pasta raiz do projeto:
 ```bash
-cd "c:\Users\thyag\OneDrive\Desktop\Site-Aprendendo-Programa-o-main"
 git init
 git add .
-git commit -m "Initial commit: Site Aprendendo Programação"
+git commit -m "Initial commit: Site Aprendendo Programacao"
 ```
 
-### 2. Criar Repositório no GitHub
-1. Acesse [github.com](https://github.com)
+### 2. Criar Repositorio no GitHub
+1. Acesse github.com
 2. Clique em "New repository"
-3. Nome: `Site-Aprendendo-Programacao`
-4. Descrição: `Site educativo sobre programação com apresentações de projetos`
-5. Marque como Public
-6. NÃO inicialize com README (já temos um)
+3. Nome do repositorio: `Site-Aprendendo-Programacao`
+4. Descricao (opcional): `Site educativo sobre programacao com apresentacoes de projetos`
+5. Marque o repositorio como Public
+6. Nao inicialize com README (ja temos o arquivo local no projeto)
 
-### 3. Conectar com o Repositório Remoto
+### 3. Conectar com o Repositorio Remoto
+Associe o repositorio remoto e envie o codigo principal:
 ```bash
 git remote add origin https://github.com/ThyagoToledo/Site-Aprendendo-Programacao.git
 git branch -M main
 git push -u origin main
 ```
 
-## ⚡ Deploy no Vercel
+---
 
-### Opção 1: Conectar via GitHub (Recomendado)
-1. Acesse [vercel.com](https://vercel.com)
-2. Faça login com sua conta GitHub
-3. Clique em "New Project"
-4. Selecione o repositório `Site-Aprendendo-Programacao`
-5. Vercel detectará automaticamente a configuração
-6. Clique em "Deploy"
+## Deploy no Vercel
 
-### Opção 2: Deploy via CLI
+O projeto foi configurado com suporte a execucao hibrida (HTML estatico + blog Next.js compilado).
+
+### Opcao 1: Conectar via GitHub (Recomendado)
+1. Acesse vercel.com e realize login com a sua conta GitHub
+2. No painel principal, clique em "New Project"
+3. Importe o repositorio `Site-Aprendendo-Programacao`
+4. O Vercel detectara automaticamente a configuracao local
+5. Clique em "Deploy" e aguarde a finalizacao do build
+
+### Opcao 2: Deploy via CLI do Vercel
+Caso prefira realizar o deploy diretamente da sua maquina:
 ```bash
 npm install -g vercel
-cd "c:\Users\thyag\OneDrive\Desktop\Site-Aprendendo-Programa-o-main"
 vercel --prod
 ```
 
-## 🎯 Funcionalidades Implementadas
+### Configuracoes de Deploy Integradas:
+- **vercel.json**: Arquivo que especifica as regras de execucao estatica do site de frontend tradicional e compila a subpasta do Next.js.
+- **Static assets**: Otimizacao automatica das paginas HTML, CSS e JavaScript estaticos.
+- **Next.js Compilation**: O blog contido na pasta `/blog` e compilado para exportacao estatica durante a esteira de build.
+- **Roteamento Hibrido**: Redirecionamento configurado para que requisicoes a `/blog/*` abram o blog Next.js, enquanto a raiz e demais paginas apontem para os arquivos HTML estaticos locais.
 
-### ✅ Requisitos Atendidos:
-- [x] Tema livre educativo
-- [x] Mais de 10 seções/funcionalidades
-- [x] Design responsivo completo
-- [x] Layout bem planejado
-- [x] Funcionalidades interativas
-- [x] HTML5, CSS3, JavaScript
-- [x] Preparado para hospedagem online
+---
 
-### 📄 Páginas e Seções:
-1. **Página Inicial** (index.html)
-   - Header com navegação
-   - Conceitos fundamentais do HTML
-   - Explicação sobre Frameworks
-   - Bibliotecas vs Frameworks
-   - Canais de entretenimento
-   - Footer com contatos
+## Requisitos de Entrega Atendidos
 
-2. **Página de Apresentações** (apresentacoes.html)
-   - Sistema de abas interativo
-   - Projeto Web (placeholder para vídeo)
-   - Java Merlin o Guru (placeholder para vídeo)
-   - Mobile Kotlin Bobbie Goods (placeholder para vídeo)
-   - Navegação entre páginas
+- Tema educativo livre focado em tecnologia e desenvolvimento
+- Mais de 10 secoes/funcionalidades estruturadas
+- Design responsivo integrado
+- Layout planejado com boa escolha de tipografia e paleta de cores
+- Interacoes por JavaScript Vanilla (sistema de abas, accordion do FAQ e formularios)
+- Tecnologias aplicadas: HTML5, CSS3, JavaScript ES6+ e Next.js/Tailwind/TypeScript
+- Pronto para hospedagem online permanente
 
-## 🎥 Adicionando Vídeos (Para o Futuro)
+---
 
-### Para substituir os placeholders por vídeos reais:
+## Adicionando Videos (Para o Futuro)
 
-1. **Faça upload dos vídeos no YouTube**
+Para substituir os placeholders por videos de apresentacao reais na pagina `apresentacoes.html`:
 
-2. **Edite o arquivo `apresentacoes.html`**
-
-3. **Substitua cada seção `.video-placeholder` por:**
+1. Realize o upload dos videos desejados no YouTube
+2. Abra o arquivo `apresentacoes.html`
+3. Localize o bloco da classe `.video-placeholder` e substitua pelo codigo de iframe do YouTube correspondente:
 ```html
 <div class="video-container">
     <div class="video-wrapper">
         <iframe 
             src="https://www.youtube.com/embed/SEU_VIDEO_ID" 
-            title="Título do Vídeo"
+            title="Titulo do Video"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
             referrerpolicy="strict-origin-when-cross-origin" 
             allowfullscreen>
@@ -105,31 +109,28 @@ vercel --prod
     </div>
 </div>
 ```
-
-4. **Faça commit das mudanças:**
+4. Faca o commit das mudancas e envie ao Git para atualizacao automatica:
 ```bash
-git add .
-git commit -m "Add presentation videos"
+git add apresentacoes.html
+git commit -m "docs: Add presentation videos"
 git push
 ```
 
-5. **Deploy automático** - Vercel fará o deploy automaticamente
+---
 
-## 🌐 URLs Finais
+## URLs Finais do Projeto
 
-Após o deploy, você terá:
+Apos o deploy completo na nuvem, o projeto tera os seguintes enderecos principais:
 - **GitHub**: `https://github.com/ThyagoToledo/Site-Aprendendo-Programacao`
 - **Vercel**: `https://site-aprendendo-programacao.vercel.app`
-- **Domínio personalizado**: Configurável no painel do Vercel
-
-## 📞 Suporte
-
-Se tiver problemas:
-1. Verifique o console do navegador (F12)
-2. Teste localmente primeiro: `npm run dev`
-3. Consulte a documentação do Vercel
-4. Verifique se todos os arquivos estão no repositório
+- **Dominios personalizados**: Configuraveis no painel administrativo da Vercel
 
 ---
 
-🎓 **Projeto pronto para apresentação e avaliação!**
+## Suporte e Solucao de Problemas
+
+Se encontrar problemas de carregamento no ar:
+1. Abra o console do desenvolvedor no navegador (tecla F12) para checar erros de rota
+2. Certifique-se de testar localmente antes de comitar: `npm run dev`
+3. Consulte as mensagens e historicos de deploy no painel da Vercel para identificar possiveis erros de compilacao
+4. Verifique se todos os arquivos necessarios estao no repositorio git remoto

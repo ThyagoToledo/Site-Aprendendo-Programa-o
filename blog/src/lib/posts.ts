@@ -1284,7 +1284,7 @@ curl -X GET http://localhost:3000/api/users/1
 # Atualizar usuário (requer autenticação)
 curl -X PUT http://localhost:3000/api/users/1 \
   -H "Content-Type: application/json" \
-  -H "Authorization: Bearer [REDACTED_DOCUMENTATION_TOKEN]" \
+  -H "Authorization: Bearer $ACCESS_TOKEN" \
   -d '{"name":"João Santos"}'
 \`\`\`
 
